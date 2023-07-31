@@ -1,0 +1,16 @@
+/* G L O B A L */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/*  U T I L I D A D E S */
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/componentes.css";
+
+/* pages */
+@import "./index.css";
+@import "./about.css";
+@import "./education.css";
+@import "./skills.css";
+@import "./contact.css";

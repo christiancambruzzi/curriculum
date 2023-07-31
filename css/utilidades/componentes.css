@@ -1,0 +1,31 @@
+.btn-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  /* width: 34.5rem; */
+  height: 5rem;
+}
+
+.btn-box .btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 100%;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  /* border: 0.2rem solid var(--main-color); */
+  border-radius: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color: var(--text-color);
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.btn-box .btn:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+}
