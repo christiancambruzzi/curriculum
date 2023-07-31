@@ -146,10 +146,7 @@ section {
 }
 
 @media (max-width: 460px) {
-  .home {
-    justify-content: center;
-    background: none;
-  }
+
 
   .home-content {
     display: flex;
